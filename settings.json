@@ -1,0 +1,45 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Aplica um sinal visual na esquerda da linha selecionada
+    "editor.renderLineHighlight":"gutter",
+
+    "terminal.integrated.shell.osx": "/bin/zsh",
+
+    // Configura tamanho e família da fonte
+    "editor.fontSize":13,
+    "editor.lineHeight":18,
+    "editor.fontFamily":"Fira Code",
+    "editor.fontLigatures":true,
+
+    "explorer.compactFolders": false,
+
+    // Aumenta a fonte do terminal
+    "terminal.integrated.fontSize":14,
+    
+    // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "window.zoomLevel": 0,
+    "emmet.extensionsPath": "",
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+}
