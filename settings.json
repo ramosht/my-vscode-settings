@@ -5,7 +5,7 @@
     // Aplica um sinal visual na esquerda da linha selecionada
     "editor.renderLineHighlight":"gutter",
 
-    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
 
     // Configura tamanho e família da fonte
     "editor.fontSize":13,
@@ -24,13 +24,13 @@
         120
     ],
     "launch": {
-
         "configurations": [],
         "compounds": []
     },
-    "window.zoomLevel": 0,
-    "emmet.extensionsPath": "",
 
+    "window.zoomLevel": -1,
+
+    "emmet.extensionsPath": "",
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
@@ -39,6 +39,12 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+    ],
 
     "editor.minimap.enabled": false,
     "git.enableSmartCommit": true,
